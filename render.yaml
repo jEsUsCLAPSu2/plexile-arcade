@@ -1,0 +1,12 @@
+version: 1
+build:
+  steps:
+    - name: Build
+      script:
+        - echo "Build step is not needed for a static site"
+web:
+  - name: Static Site
+    routes:
+      - path: /
+        buildCommand: echo "No build command needed for static site"
+        staticPublishPath: jEsUsCLAPSu2/plexile-arcade
