@@ -76,7 +76,7 @@ a:hover {
 }
 
 a:active {
-  color: #b03232;
+  color: b03232;
 }
 
 /* navbar*/
@@ -145,7 +145,7 @@ nav {
   margin: 30px;
   font-size: 1vw;
 }
-
+#
 .search-img {
   height: 11vw;
   width: 11vw;
